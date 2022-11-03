@@ -1,4 +1,4 @@
-s = int(input("Distance(km):"))
-t = int(input("Time(h):"))
-v = s/t
-print(v,"km/h")
+distance = int(input("Distance(km):"))
+time = int(input("Time(h):"))
+velocity = distance/time
+print(velocity,"km/hr")
