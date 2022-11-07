@@ -25,23 +25,17 @@ small_font = Font (
 ) #fontของหัวข้อที่ให้ผู้ใช้งานกรอก
 
 def kite_result(event):
-    label_result_kite_cm.configure(text=(float(textbox_side_kite_1.get())
-                                         * float(textbox_side_kite_2.get()))/2)
-    label_result_kite_m.configure(text=(float(textbox_side_kite_1.get())/100
-                                         * float(textbox_side_kite_2.get())/100)/2)
+    label_result_kite_cm.configure(text=(float(textbox_side_kite_1.get()) * float(textbox_side_kite_2.get()))/2)
+    label_result_kite_m.configure(text=(float(textbox_side_kite_1.get())/100 * float(textbox_side_kite_2.get())/100)/2)
 
 def square_result(event):
-    label_result_rectangle_cm.configure(text=float(textbox_width_rectangle.get())
-                                             * float(textbox_length_rectangle.get()))
-    label_result_rectangle_m.configure(text=float(textbox_width_rectangle.get())/100
-                                            * float(textbox_length_rectangle.get())/100)
+    label_result_rectangle_cm.configure(text=float(textbox_width_rectangle.get()) * float(textbox_length_rectangle.get()))
+    label_result_rectangle_m.configure(text=float(textbox_width_rectangle.get())/100 * float(textbox_length_rectangle.get())/100)
 
 def trapezoid_result(event):
-    label_result_trapezoid_cm.configure(text=((float(textbox_side_trapezoid_1.get())
-                                             + float(textbox_side_trapezoid_2.get()))
+    label_result_trapezoid_cm.configure(text=((float(textbox_side_trapezoid_1.get()) + float(textbox_side_trapezoid_2.get()))
                                              * float(textbox_high_trapezoid.get()))/2)
-    label_result_trapezoid_m.configure(text=((float(textbox_side_trapezoid_1.get())/100
-                                             + float(textbox_side_trapezoid_2.get())/100)
+    label_result_trapezoid_m.configure(text=((float(textbox_side_trapezoid_1.get())/100 + float(textbox_side_trapezoid_2.get())/100)
                                              * float(textbox_high_trapezoid.get())/100)/2)
 
 #หัวข้อคำนวณพื้นที่สี่เหลี่ยม
