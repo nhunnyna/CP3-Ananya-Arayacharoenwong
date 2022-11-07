@@ -9,7 +9,7 @@ mainWindow.title('คำนวณพื้นที่สี่เหลี่�
 topic_font = Font (
     family="Angsana New",
     size=22,
-    weight='bold',
+    weight='bold'
 )
 
 big_font = Font (
