@@ -39,7 +39,7 @@ def trapezoid_result(event):
                                              * float(textbox_high_trapezoid.get())/100)/2)
 
 #หัวข้อคำนวณพื้นที่สี่เหลี่ยม
-label_topic = Label(mainWindow, text="คำนวณพื้นที่สี่เหลี่ยม", fg='white', font=topic_font, bg="#2D224D", width=30)
+label_topic = Label(mainWindow, text="คำนวณพื้นที่สี่เหลี่ยม 3 ประเภท", fg='white', font=topic_font, bg="#2D224D", width=30)
 label_topic.grid(row=0, column=0)
 
 #พื้นที่สี่เหลี่ยมรูปว่าว
